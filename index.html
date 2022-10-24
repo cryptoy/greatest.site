@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>greatest.site</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      #full-page-wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #wall-flip-wrapper {
+        /* border-right: 2px solid black;
+        /* border-radius: 50%; */
+        /* background: linear-gradient(45deg, red, orange); */
+        background: url("everrise-logo.png");
+        background-size: 100% 100%;
+        /* background-size: cover; */
+        /* animation: spin 3s linear infinite; */
+      }
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="full-page-wrapper">
+      <div id="wall-flip-wrapper">
+        <video width="320" height="320" autoplay loop muted>
+          <source src="wall-flip.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <img />
+  </body>
+</html>
